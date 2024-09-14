@@ -15,6 +15,27 @@
       <a href="./index.html">Go to Home</a>
     </div>
 
+    <form class="form"></form>
+  <label class="label">
+    Delay (ms)
+    <input class="inp" type="text" name="delay" required />
+  </label>
+
+  <fieldset>
+    <legend>State</legend>
+    <label>
+      <input type="radio" name="state" value="fulfilled" required />
+      Fulfilled
+    </label>
+    <label>
+      <input type="radio" name="state" value="rejected" required />
+      Rejected
+    </label>
+  </fieldset>
+
+  <button class="Btn" type="submit">Create notification</button>
+</form>
+
     <script type="module" src="./js/1-page.js"></script>
   </body>
 </html>
