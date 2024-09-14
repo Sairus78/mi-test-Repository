@@ -1,11 +1,11 @@
 {
-  "name": "vanilla-app-template",
+  "name": "mi-test-Repository",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/vanilla-app-template/",
+    "build": "vite build --base=/mi-test-Repository/",
     "preview": "vite preview"
   },
   "devDependencies": {
